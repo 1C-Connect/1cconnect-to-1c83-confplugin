@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e565b50a-2474-4deb-9d5a-0caa0b9ccd58">
+  <name>Коннект_Расширение1СКоннект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение1С-Коннект</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

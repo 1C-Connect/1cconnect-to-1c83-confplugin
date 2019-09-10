@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cd74524-2b57-4409-b68a-216d2bf89a81">
+  <producedTypes>
+    <selectionType typeId="45fc7933-ae4a-4a8b-b118-b5299a449642" valueTypeId="e7e04527-0d21-4a06-8c8c-dc0d5daaa2d8"/>
+    <listType typeId="f77fdaae-0329-46a8-97cb-12cc4440cbc5" valueTypeId="e34a6973-5522-4d15-aaa1-9ed45bc3a27e"/>
+    <managerType typeId="00d4f00b-17d0-4320-ab49-b0ec78e10ddb" valueTypeId="293517bd-eb06-4d64-8a43-c45058bee136"/>
+    <recordSetType typeId="f1ee8cae-2f4e-4c50-b558-b8d12a505ae9" valueTypeId="79271e9b-9ed3-4657-bd0d-48d0fcd6900f"/>
+    <recordKeyType typeId="913fde2c-248b-4593-8c7c-4f556c2dad01" valueTypeId="d9d4dbfb-5000-408e-bc87-a7fb0a28d4e8"/>
+    <recordType typeId="482c44e9-7408-4de4-95aa-b3fb2ed99929" valueTypeId="97f21887-e49e-4c30-82f3-c5e6f830fd06"/>
+    <recordManagerType typeId="cbef9749-70fa-41d0-b940-725d9d8adcf6" valueTypeId="c8227715-5068-4d3d-9203-1acecb12d5a7"/>
+  </producedTypes>
+  <name>Коннект_СвязиСПользователями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи с пользователями (1С-Коннект)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="d672777e-fa21-4f26-bf85-48dd401499f6">
+    <name>ИДПользователя1СКоннект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя 1С-Коннект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="9dd88a1e-9fe8-4ed3-9359-4ce90facfe9a">
+    <name>СотрудникКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник компании</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="61cb83cb-5b45-4096-80db-cec4251d7d57">
+    <name>EMailИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email (информационной базы)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>320</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="5f7c5e96-45eb-400b-af1b-94dd97a29475">
+    <name>ПомеченНаУдалениеСотрудникКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помечен на удаление сотрудник компании</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3f96c15e-9f0a-46d1-afad-0238b4261504">
+    <name>ПомеченНаУдалениеПользователь1СКоннект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помечен на удаление пользователь 1С-Коннект</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bd0609d6-506f-4ee0-bb6a-61c4798d5e95">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="4869f112-71d1-4840-8566-1c5204bb1d77">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="8f22a3d1-feab-4a93-bed4-a00502815dd9">
+    <name>ИДСотрудникаКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСотрудника компании</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

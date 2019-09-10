@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1647fdb6-65ca-4df8-baaf-03f739fabd1a">
+  <name>Коннект_Связатьвыделенные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связать выделенные</value>
+  </synonym>
+  <transparentPixel>
+    <x>102</x>
+    <y>39</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

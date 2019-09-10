@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="56cc0a92-cfab-4bb2-8cee-84243f7f54d3">
+  <producedTypes>
+    <refType typeId="7a0c50b6-0ae1-49b3-930b-2c440f20a59b" valueTypeId="15a5c54e-3a95-4bd3-b887-4482958e6e92"/>
+    <listType typeId="5c66c8cd-449e-4f5d-9d3e-a9dd5d33f66c" valueTypeId="7c83a363-c58f-4e2d-a133-931f715341e4"/>
+    <managerType typeId="2615f8d9-d573-4a25-9fc1-a89acd5d2395" valueTypeId="4ab7690b-b62f-4d21-b35b-591af6530d27"/>
+  </producedTypes>
+  <name>СпособыВызоваДополнительныхОбработок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aac66dc9-54ec-42ba-aba3-abb12a1474ec">
+    <name>ВызовКлиентскогоМетода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="22f8bb53-dc73-4174-897e-61d4e47bfa5f">
+    <name>ВызовСерверногоМетода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f5d2faa8-59e1-45e9-a166-5dc620271380">
+    <name>ЗаполнениеФормы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b6bd9e5e-6182-49f0-909f-92966cbca8b4">
+    <name>ОткрытиеФормы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e51c7e64-e70c-4f9a-92fa-8541daac7919">
+    <name>СценарийВБезопасномРежиме</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c99a1fc7-ed30-4ce2-9330-9f8d47443f7f">
+    <name>ЗагрузкаДанныхИзФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

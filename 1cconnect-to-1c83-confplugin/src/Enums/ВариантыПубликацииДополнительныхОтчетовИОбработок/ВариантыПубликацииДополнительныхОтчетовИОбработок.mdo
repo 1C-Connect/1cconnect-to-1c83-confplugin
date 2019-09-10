@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd729c00-e6c6-4ef2-a0f2-9ec56ae9e019">
+  <producedTypes>
+    <refType typeId="31490a83-2c7c-444f-8e35-23965e921d13" valueTypeId="db03c94a-912f-4401-b30a-380a322d12bd"/>
+    <listType typeId="0b6d99a5-798a-451c-925b-9a56bbbb99c9" valueTypeId="3f67b34f-ee95-4b47-9574-2d39cafcb6b2"/>
+    <managerType typeId="74b9654c-08c1-4610-914d-5b5a3e56b9ab" valueTypeId="0bfc65bb-15e2-4f78-9089-58450517837f"/>
+  </producedTypes>
+  <name>ВариантыПубликацииДополнительныхОтчетовИОбработок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="faa3784d-e9f8-4581-84ce-3ce2095b33dc">
+    <name>Используется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e64bc8dd-6699-4ec4-a5df-8eb0edaff536">
+    <name>РежимОтладки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a8564d92-6e2e-4c3e-a730-744d63a23025">
+    <name>Отключена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

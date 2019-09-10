@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60455961-90e7-4a57-8019-9b1d757880db">
+  <producedTypes>
+    <objectType typeId="b5a2812f-68a4-4d0b-9f1e-d75f76702c57" valueTypeId="eb824a24-a2a7-4022-9cf3-23c219d6bbad"/>
+    <managerType typeId="cb8235bc-4e2c-439d-8f89-935fd48a1ced" valueTypeId="553933f8-855c-489c-be22-ab45b97d3925"/>
+  </producedTypes>
+  <name>Коннект_РегламентнаяОперацияУдалениеВосстановлениеПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннект: Регламентная операция удаление восстановление пользователей 1С-Коннект</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="79260d6d-bb93-46bd-9e1e-977f9fe2da8c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04a28b65-996b-4878-a1f4-c03699eb186c">
+  <producedTypes>
+    <refType typeId="525df445-c23f-4d49-ad63-d3b684bbce4c" valueTypeId="22a8233f-1fce-42df-af86-7387b83a15c9"/>
+    <listType typeId="e63e285b-5352-4272-a4c6-3fb51e289a2b" valueTypeId="996f6867-4393-4a52-a86a-60a1ae654589"/>
+    <managerType typeId="45f47b1a-20da-41fe-9294-0f631400c608" valueTypeId="4fea70b2-16ae-423f-9bd9-5024c217308a"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69735de8-aab7-49d0-a13a-8beb4fe7b4be">
+    <name>АдресЭлектроннойПочты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

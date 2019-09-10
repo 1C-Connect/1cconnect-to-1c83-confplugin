@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1798c86d-d500-4c20-933a-87135db39c64">
+  <producedTypes>
+    <refType typeId="0de632e0-d480-4261-ab26-c3f007b8e584" valueTypeId="d3261fd9-e295-4ad2-a0fa-494f00f968e5"/>
+    <listType typeId="e0fa0ba8-0015-471d-b560-c268f0199e05" valueTypeId="d51af051-f07d-4def-ac3f-9a6b83b6a45f"/>
+    <managerType typeId="c713e836-bfb3-422a-8d31-d7c8626c8184" valueTypeId="5ffe7b3a-69d6-46db-9068-d6a8a32407f2"/>
+  </producedTypes>
+  <name>Коннект_ИДКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИД конфигурации (коннект)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7fa07fd4-8223-45ac-947f-4d491bd2f1ba">
+    <name>БП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия предприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efde9a4b-5ab4-4a81-8658-ace00dfca1e3">
+    <name>ЗУП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата и управление персоналом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5de3a130-9791-406c-9a7c-edd7290c7ec7">
+    <name>УПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление производственным предприятием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb0045d3-e9ec-4988-a1f6-7dbb69290306">
+    <name>КА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплексная автоматизация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="356901dc-57b6-4389-b5a8-08b1c3419ada">
+    <name>ББУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия бюджетного учреждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e0a3cb2-bc85-4bd2-b3a2-ac9534afa5ef">
+    <name>БГУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия государственного учреждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16f25076-7a69-4cb1-a843-277131970bf3">
+    <name>ЗБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата и кадры бюджетного учреждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7205c4a9-3551-44fb-bb4e-2502018b7ece">
+    <name>БПКОРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия предприятия КОРП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b30bf733-85d5-4519-8b07-dad0c9722b67">
+    <name>БАУКОРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия автономного учреждения КОРП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="237cd815-a14b-42eb-bcf8-7d211d79897a">
+    <name>БАУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия автономного учреждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e6cc6d7-97e8-49d0-a884-f912454dcc7f">
+    <name>УТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление торговлей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b07de1fc-236e-4f25-976b-7f1d3cc336c9">
+    <name>Розница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розница</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

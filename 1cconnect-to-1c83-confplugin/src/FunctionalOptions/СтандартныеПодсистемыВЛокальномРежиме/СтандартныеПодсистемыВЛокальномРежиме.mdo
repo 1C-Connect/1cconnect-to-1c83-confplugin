@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd486207-9170-4dc1-98c1-1c5ed0d023b2">
+  <name>СтандартныеПодсистемыВЛокальномРежиме</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+  </extension>
+  <location>Constant.НеИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

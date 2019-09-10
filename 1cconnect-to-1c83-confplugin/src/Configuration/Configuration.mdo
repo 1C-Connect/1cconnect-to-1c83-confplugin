@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="648441f7-5955-4bee-96ea-f7cbc13eaef2">
+  <name>BotPlatform</name>
+  <synonym>
+    <key>ru</key>
+    <value>BotPlatform</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="32317b4d-5f5b-4249-9005-2fd30bf41b51"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0d36911c-10f9-4997-93f2-cce327673d42"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5a10422e-3ca7-4b8a-b4e8-a7ad866658f4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e0f3095e-e83a-4bbe-bc2e-a3a484e4830d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6622d248-1a9d-4cc1-9232-68dff9b52a88"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="622d6768-1e55-4d83-8430-b6e5d52df66a"/>
+  <namePrefix>Коннект_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>1С-Коннект</vendor>
+  <version>1.0.2.5</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="e53ca9ee-fca4-425a-87ca-7322d8671302">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Коннект_Автооповещения</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Коннект_Расширение1СКоннект</subsystems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
+  <styleItems>StyleItem.РезультатУспехЦвет</styleItems>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
+  <commonPictures>CommonPicture.Информация32</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Показать</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Скрыть</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Закомментировать</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Раскомменировать</commonPictures>
+  <commonPictures>CommonPicture.Коннект_УстановитьВремя</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Связатьвыделенные</commonPictures>
+  <commonPictures>CommonPicture.Коннект_РазорватьСвязь</commonPictures>
+  <commonPictures>CommonPicture.Коннект_СвязатьВыделенныеВертикально</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Конверт</commonPictures>
+  <commonPictures>CommonPicture.Коннект_Информация</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.Коннект_ПрограммныйИнтерфейс</commonModules>
+  <commonModules>CommonModule.Коннект_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.Коннект_Автообновление</commonModules>
+  <functionalOptions>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</functionalOptions>
+  <constants>Constant.НеИспользоватьРазделениеПоОбластямДанных</constants>
+  <commonForms>CommonForm.Коннект_ФормаАвторизации</commonForms>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.Коннект_ИДКонфигурации</enums>
+  <dataProcessors>DataProcessor.Коннект_НастройкаПользователей</dataProcessors>
+  <dataProcessors>DataProcessor.Коннект_ОбновлениеРасширения</dataProcessors>
+  <dataProcessors>DataProcessor.Коннект_РегламентнаяОперацияУдалениеВосстановлениеПользователей</dataProcessors>
+  <dataProcessors>DataProcessor.Коннект_Тестирование</dataProcessors>
+  <informationRegisters>InformationRegister.Коннект_ИдентификаторБазы</informationRegisters>
+  <informationRegisters>InformationRegister.Коннект_СвязиСПользователями</informationRegisters>
+</mdclass:Configuration>

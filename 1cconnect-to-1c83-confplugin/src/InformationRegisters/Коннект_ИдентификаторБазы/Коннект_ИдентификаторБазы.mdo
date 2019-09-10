@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a38ecb7d-1ec5-4a35-a283-55c884e77b3c">
+  <producedTypes>
+    <selectionType typeId="bb308c63-ba05-4ad0-b4f1-42da0c3e1007" valueTypeId="e47d8f40-8d2d-4f7b-89b4-50f5a6533503"/>
+    <listType typeId="dbd63793-b338-4f8c-a88f-ce989b292df6" valueTypeId="2296fa7e-8453-42af-b67d-e741cc64b39f"/>
+    <managerType typeId="b4ab6ea7-6ec0-4c12-a64e-f12143970ccb" valueTypeId="fdd96d22-273e-4b91-b2f7-ab7f6e8aabe5"/>
+    <recordSetType typeId="ab4c90dd-392d-4854-9911-2461240f5e01" valueTypeId="7fe6d518-6fa5-41c3-bb04-8333b2c00244"/>
+    <recordKeyType typeId="a8056a1b-8980-48a5-b21a-1e1bfacac924" valueTypeId="bdeaedfe-e9f8-40f9-8225-ce47140ad1c5"/>
+    <recordType typeId="89cc781c-cb92-4df8-bb9a-d698b966af5d" valueTypeId="06b6e1da-a401-4b1b-8d94-f67caff8388e"/>
+    <recordManagerType typeId="764b322f-010c-4d08-a494-b5804a9802cf" valueTypeId="c84196e8-20b3-413f-9b8e-c120fcd33bfb"/>
+  </producedTypes>
+  <name>Коннект_ИдентификаторБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор базы (1С-Коннект)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d5b05e9d-95a3-4c64-8d53-21486618f5c0">
+    <name>ИдентификаторБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

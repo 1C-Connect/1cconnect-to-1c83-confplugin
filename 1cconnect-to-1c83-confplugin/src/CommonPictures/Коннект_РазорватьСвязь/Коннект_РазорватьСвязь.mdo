@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8de19ebd-41dc-4219-8591-b032777976e7">
+  <name>Коннект_РазорватьСвязь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разорвать связь</value>
+  </synonym>
+  <transparentPixel>
+    <x>302</x>
+    <y>173</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

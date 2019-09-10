@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e71eb4d-4d57-41d6-ac42-d55d91d5fbdf">
+  <producedTypes>
+    <objectType typeId="e2961012-7cb0-49da-b3f5-8fa2f2ba8b08" valueTypeId="6609655c-4e02-4dfa-8389-2b3e6eea95a2"/>
+    <managerType typeId="e5b6444e-14d4-43a5-82a0-e786eda57f89" valueTypeId="6511cce5-6e20-4ea6-9698-249f347e22af"/>
+  </producedTypes>
+  <name>Коннект_ОбновлениеРасширения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннект: Обновление расширения 1С-Коннект</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Коннект_ОбновлениеРасширения.Form.ФормаОбновлениеРасширения</defaultForm>
+  <forms uuid="2ac4ab97-a4e1-490e-abb4-0b09fc1c7c4e">
+    <name>ФормаОбновлениеРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обновление расширения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c064fa42-7ae1-4f28-9271-f29bc6c0ac53">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

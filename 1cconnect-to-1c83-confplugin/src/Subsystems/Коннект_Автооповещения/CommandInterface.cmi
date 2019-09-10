@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.Коннект_ИдентификаторБазы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:322fd9b9-3b42-47b5-9a0c-d83650a26d03</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:289fd57c-3f34-4bc5-bc66-43cbe1a26d88</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:dbc3e097-3bd9-4e97-954b-a9ceceffcc48</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

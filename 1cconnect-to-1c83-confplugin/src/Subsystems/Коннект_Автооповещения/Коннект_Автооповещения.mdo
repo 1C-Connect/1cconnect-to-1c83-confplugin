@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57189040-5739-4d88-ad7c-1765b6a839db">
+  <name>Коннект_Автооповещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С-Коннект</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.Коннект_ИдентификаторБазы</content>
+  <content>DataProcessor.Коннект_НастройкаПользователей</content>
+  <content>CommonPicture.Коннект_Показать</content>
+  <content>CommonPicture.Коннект_Скрыть</content>
+  <content>DataProcessor.Коннект_ОбновлениеРасширения</content>
+  <content>CommonForm.Коннект_ФормаАвторизации</content>
+  <content>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</content>
+  <content>Role.ПолныеПрава</content>
+  <content>CommonPicture.Информация32</content>
+  <content>CommonPicture.ИнформацияПоНедоступнымПолям</content>
+  <content>CommonPicture.Коннект_УстановитьВремя</content>
+  <content>CommonPicture.Коннект_Раскомменировать</content>
+  <content>CommonPicture.Коннект_СвязатьВыделенныеВертикально</content>
+  <content>CommonPicture.Коннект_РазорватьСвязь</content>
+  <content>CommonPicture.Коннект_Связатьвыделенные</content>
+  <content>CommonPicture.Коннект_Закомментировать</content>
+  <content>StyleItem.РезультатУспехЦвет</content>
+  <content>StyleItem.ПоясняющийОшибкуТекст</content>
+  <content>StyleItem.ПоясняющийТекст</content>
+  <content>CommonPicture.ПиктограммыЭлементов</content>
+  <content>Constant.НеИспользоватьРазделениеПоОбластямДанных</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>Enum.Коннект_ИДКонфигурации</content>
+  <content>Enum.СпособыВызоваДополнительныхОбработок</content>
+  <content>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</content>
+  <content>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</content>
+  <content>Enum.ВидыДополнительныхОтчетовИОбработок</content>
+  <content>DataProcessor.Коннект_РегламентнаяОперацияУдалениеВосстановлениеПользователей</content>
+  <content>InformationRegister.Коннект_СвязиСПользователями</content>
+  <content>CommonModule.Коннект_Автообновление</content>
+  <content>CommonModule.Коннект_ОбщегоНазначения</content>
+  <content>CommonPicture.Коннект_Конверт</content>
+  <content>99190304-5da5-4dc3-a7ee-2bab42dfbc5b</content>
+  <content>DataProcessor.Коннект_Тестирование</content>
+  <content>CommonPicture.Коннект_Информация</content>
+</mdclass:Subsystem>
